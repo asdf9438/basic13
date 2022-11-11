@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+*{padding: 0; margin: 0;}
+img{width: 100%;}
+
+
+.wrap{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrap .slick1{}
+
+.wrap .slick1 .slick-prev{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    visibility: hidden;
+    font-size: 0;
+}
+
+.wrap .slick1 .slick-prev:after{
+    content: "\f137";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    visibility: visible;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
+
+.wrap .slick1 .slick-next{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    visibility: hidden;
+    font-size: 0;
+}
+.wrap .slick1 .slick-next:after{
+    content: "\f138";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    visibility: visible;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
